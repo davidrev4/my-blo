@@ -1,0 +1,70 @@
+h1{
+    background-color: black;
+    color: white;
+    text-align: center;
+    margin-top: -12px;
+    height: 60px;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: 1fr 8fr;
+    margin-top: -22px;
+    grid-template-rows: 1500px;
+}
+
+header{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    background-color: blue;
+    font-size: 15px;
+    justify-content: space-around;
+}
+
+ul{
+    justify-content: space-between;
+    list-style: none;
+    color: white;
+}
+
+header li{
+    margin-bottom: 3rem;
+}
+
+li a{
+    color: white;
+    text-decoration: none;
+    transition-duration: 0.5s;
+}
+
+li a:hover{
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+.second_container{
+    margin-left: 3rem;
+    margin-top: 3rem;
+    background-color: black;
+    color: white;
+}
+
+.second_container li{
+    margin-bottom: 3rem;
+}
+
+.second_container h2{
+    text-align: center;
+}
+
+img{
+    width: 70%;
+    height: 25%;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+.captain_america{
+    list-style: square url(https://www.youtube.com/watch?v=ECfL3ye75gk);
+}
